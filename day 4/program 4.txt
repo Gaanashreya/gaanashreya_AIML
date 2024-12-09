@@ -1,0 +1,33 @@
+// write a c program to print the following pattern
+#include <stdio.h>
+
+int main() {
+    int n;
+    // to print 1234
+    //          1234
+    //          1234
+    printf("Enter the value of num: ");
+    scanf("%d",&n);
+     for(int i=1;i<=n;i++)//number of lines
+   {
+       for(int j=1;j<=n;j++)//number of stars
+       {
+           printf("%d",j);
+       }
+       printf("\n");
+   }
+   //to print 111
+   //         222
+   //         333 pattern
+    printf("Enter the value of num: ");
+    scanf("%d",&n);
+     for(int i=1;i<=n;i++)//number of lines
+   { for(int j=1;j<=n;j++)//number of stars
+      {
+           printf("%d",i);
+       }
+       printf("\n");
+   }
+   
+
+}

@@ -1,0 +1,25 @@
+// write a c program to print the following pattern
+#include <stdio.h>
+int main() {
+    int n;
+    printf("Enter the rows and columns: ");
+    scanf("%d",&n);
+     for(int i=0;i<n;i++) //number of lines
+   {
+       for(int j=0;j<=i;j++) //number of stars
+       {
+           printf("%c ",'A'+i);
+       }
+       printf("\n");
+   }
+       printf("Enter the rows and columns: ");
+    scanf("%d",&n);
+     for(int i=0;i<n;i++) //number of lines
+   {
+       for(int j=0;j<=i;j++) //number of stars
+       {
+           printf("%c ",'a'+i);
+       }
+       printf("\n");
+   }
+}
