@@ -1,0 +1,13 @@
+// write c program to add two numbers using functions.
+#include <stdio.h>
+
+int main() 
+{
+    void add(int num1,int num2)
+    {
+        printf("Addition of %d & %d : %d \n",num1,num2,(num1+num2));
+       
+    }
+  add(9,8);
+  add(25,27);
+}

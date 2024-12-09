@@ -1,0 +1,26 @@
+// write c program to find product of 2 number using function
+//to find q and r using funcion
+//finf sub of 2 number using function
+#include <stdio.h>
+
+int main() {
+{
+    void product(int num1,int num2)
+    {
+        printf("product of %d & %d : %d \n",num1,num2,num1*num2);
+       
+    }
+  product(9,8);
+  product(25,27);
+  product(-8,-17);
+}
+{
+    void substraction(int num1, int num2)
+    {
+         printf("substraction of %d & %d : %d \n",num1,num2,num1-num2);
+    }
+    substraction(7,90);
+    substraction(7,9);
+    substraction(4,8);
+}
+}
