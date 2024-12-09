@@ -1,0 +1,47 @@
+// write a c program to vheck whether the user entered 2 integer values are equal or not ??
+
+
+#include <stdio.h>
+
+
+
+int main() 
+{
+    
+int num1, num2;
+  
+ 
+ printf("Enter the first number:");
+  
+ 
+ scanf("%d",&num1);
+   
+
+ printf("Enter the second number:");
+ 
+  
+ scanf("%d",&num2);
+  
+  
+if(num1==num2){
+  
+     
+ printf("user entered numbers are Equal");
+ 
+ 
+  }
+else
+{
+    
+    
+printf("user entered numbers are Not equal");
+  
+ 
+ }
+
+   
+
+ return 0;
+
+
+} 
