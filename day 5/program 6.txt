@@ -1,0 +1,24 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int productcode;
+    char productname[15];
+    int quantity;
+    int price;
+    printf("Enter the product code: \n");
+    scanf("%d\n",&productcode);
+    printf("Enter the product name: \n");
+    scanf("%s \n",&productname);
+    printf("Enter the quantity: \n");
+    scanf("%d \n",&quantity);
+    printf("Enter the price: \n");
+    scanf("d\n",&price);
+    printf("Customer bill : \n");
+    printf("------------------------\n");
+    printf("product: %s \n", productname);
+    printf("quantity:%d\n ", quantity);
+    printf("Net Amount= %d",(quantity*price));
+ 
+    return 0;
+}

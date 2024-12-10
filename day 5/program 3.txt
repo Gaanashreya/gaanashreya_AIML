@@ -1,0 +1,22 @@
+// write a c program to declare &create an array size 10 and access the array elements?
+#include <stdio.h>
+
+int main(){
+    int Num_Arr[10];
+    Num_Arr[0]=10;
+    Num_Arr[1]=20;
+    Num_Arr[2]=30;
+    Num_Arr[3]=40;
+    Num_Arr[4]=50;
+    Num_Arr[5]=60;
+    Num_Arr[6]=70;
+    Num_Arr[7]=80;
+    Num_Arr[8]=90;
+    Num_Arr[9]=100;
+    printf("Array Elements are: \n");
+    for(int i=0;i<10;i++){
+        printf("%d, ",Num_Arr[i]);
+    }
+
+  
+}
